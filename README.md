@@ -1,1 +1,5 @@
 # Tree-LCS
+
+## Abstract
+
+The Longest Common Subsequence(LCS) problem is a problem that has been transformed, applied, and studied in various ways. Both the semi-local LCS problem and the dynamic LCS problem, which are deformation problems of the LCS problem, had limitations that the strings had a linear structure. In this study, the goal is to quickly solve the Tree LCS problem of obtaining LCS of one string and a string made of paths on the tree by paying attention to the versatility of the tree structure. We present the Tree LCS Algorithm, which processes character update operations to $O(N\log N\log M)$ and path LCS query operations to $O(N\log N\log^2 M)$ time complexity using the seawed matrix, the seawed tree, and the heavy-light decomposition, and we expect to solve this problem efficiently by using it with the Naive Algorithm.
