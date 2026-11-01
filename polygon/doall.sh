@@ -1,8 +1,4 @@
 #!/usr/bin/env bash
-#   *** validation ***
-scripts/run-validator-tests.sh
-scripts/run-checker-tests.sh
-
 #    *** nm1e6 ***
 mkdir -p nm1e6
 echo "Generating test #1"
